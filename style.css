@@ -48,6 +48,7 @@ main{
     width: 90%;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .row{
@@ -94,7 +95,7 @@ footer{
     width: 40%;
     margin: auto;
     justify-content: space-between;
-
+    padding-top: 10px;
 }
 
 .central-icons span{
