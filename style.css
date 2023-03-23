@@ -38,3 +38,90 @@ button.speaker-view{
     justify-content: end;
     padding-bottom: 10px;
 }
+
+/* regole corpo centrale */
+
+main{
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users{
+    width: 192px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.users img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name{
+    position: absolute;
+    background-color: rgb(74,74,74,0.6);
+    font-weight: normal;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+/* .container{
+    color: white;
+    background-color: blueviolet;
+}
+
+.users{
+    border: 1px solid white;
+} */
