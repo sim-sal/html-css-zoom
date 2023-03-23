@@ -77,6 +77,32 @@ main{
     bottom: 0;
 }
 
+/* regole footer */
+footer{
+    background-color: rgb(34,34,34);
+    height: 60px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+.central-icons{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.central-icons span{
+    font-size: 10px;
+}
+
+
+
 
 
 
