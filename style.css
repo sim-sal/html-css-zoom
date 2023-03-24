@@ -138,6 +138,10 @@ footer{
    cursor: pointer;
 }
 
+.central-icons , .sx-icons{
+    text-align: center;
+}
+
 
 
 
