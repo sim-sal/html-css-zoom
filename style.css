@@ -96,23 +96,21 @@ footer{
 
 .container-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 
+/* regole icone */
 .central-icons{
     display: flex;
     width: 40%;
-    margin: auto;
     justify-content: space-between;
     padding-top: 10px;
 }
 
 .central-icons span{
     font-size: 10px;
-}
-
-.central-icons:hover{
-    cursor: pointer;
 }
 
 .sx-icons{
@@ -122,9 +120,24 @@ footer{
     margin-left: 10px;
 }
 
-.sx-icons span{
+.sx-icons span, .dx-icons span{
     font-size: 10px;
 }
+
+.dx-icons{
+    background-color: rgb(74, 74, 74);
+    color: red;
+    padding-top: 15px;
+    gap: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.central-icons , .sx-icons , .dx-icons:hover {
+    cursor: pointer;
+}
+
 
 
 
