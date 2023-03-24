@@ -27,6 +27,10 @@ button{
     margin: 5px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 button.speaker-view{
     display: flex;
     justify-content: space-between;
@@ -90,6 +94,11 @@ footer{
     z-index: 900;
 }
 
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
 .central-icons{
     display: flex;
     width: 40%;
@@ -102,6 +111,20 @@ footer{
     font-size: 10px;
 }
 
+.central-icons:hover{
+    cursor: pointer;
+}
+
+.sx-icons{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.sx-icons span{
+    font-size: 10px;
+}
 
 
 
