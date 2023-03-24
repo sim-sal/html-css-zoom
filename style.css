@@ -134,8 +134,8 @@ footer{
     padding-bottom: 10px;
 }
 
-.central-icons , .sx-icons , .dx-icons:hover {
-    cursor: pointer;
+.user-name , .central-icons , .sx-icons , .dx-icons:hover{
+   cursor: pointer;
 }
 
 
